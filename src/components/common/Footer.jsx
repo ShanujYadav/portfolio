@@ -1,6 +1,6 @@
 import React from 'react'
-import { FaInstagram, FaLinkedin, FaGithubSquare, FaTwitter } from 'react-icons/fa';
-
+import { FaInstagram, FaLinkedin, FaGithubSquare} from 'react-icons/fa';
+import { GoMail } from "react-icons/go";
 const Footer = () => {
     return (
         <footer className="bg-white  mt-5">
@@ -12,8 +12,8 @@ const Footer = () => {
                     <a href="https://www.instagram.com/sanu_ydv2" target="_blank" rel="noopener noreferrer">
                         <FaInstagram className="text-black hover:text-blue-500" size={30} />
                     </a>
-                    <a href="https://x.com/LifesColour1?t=sEkiznfdpzNgflL-uq0xXA&s=09" target="_blank" rel="noopener noreferrer">
-                        <FaTwitter className="text-black hover:text-blue-600" size={30} />
+                    <a  href="mailto:shanujyadav@gmail.com" target="_blank" rel="noopener noreferrer">
+                        <GoMail className="text-black hover:text-blue-600" size={30} />
                     </a>
                     <a href="https://www.linkedin.com/in/shanujyadav" target="_blank" rel="noopener noreferrer">
                         <FaLinkedin className="text-black hover:text-blue-600" size={30} />

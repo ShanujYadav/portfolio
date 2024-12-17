@@ -3,7 +3,12 @@ import {
   FaReact,
   FaNodeJs,
   FaGitAlt,
+  FaAws,
+  FaDocker,
+  FaInfinity
 } from 'react-icons/fa';
+import { IoIosInfinite } from "react-icons/io";
+
 import {
   SiJavascript,
   SiTypescript,
@@ -17,17 +22,17 @@ import {
 
 const Skill = () => {
   const skills = [
-    { name: 'React', icon: <FaReact className="text-blue-500" /> },
-    { name: 'React Native', icon: <SiReact className="text-blue-500" /> },
-    { name: 'JavaScript', icon: <SiJavascript className="text-yellow-400" /> },
-    { name: 'TypeScript', icon: <SiTypescript className="text-blue-600" /> },
-    { name: 'Node.js', icon: <FaNodeJs className="text-green-500" /> },
-    { name: 'Express.js', icon: <SiExpress className="text-gray-500" /> },
+    { name: 'React Js', icon: <FaReact className="text-blue-500" /> },
+    { name: 'Node.Js', icon: <FaNodeJs className="text-green-500" /> },
+    { name: 'Express.Js', icon: <SiExpress className="text-gray-500" /> },
     { name: 'MongoDB', icon: <SiMongodb className="text-green-700" /> },
-    { name: 'Tailwind CSS', icon: <SiTailwindcss className="text-teal-500" /> },
+    { name: 'AWS', icon: <FaAws className="text-yellow-500" /> },
+    { name: 'Docker', icon: <FaDocker className="text-blue-500" /> },
     { name: 'Git', icon: <FaGitAlt className="text-red-500" /> },
-    { name: 'Next.js', icon: <SiNextdotjs className="text-black" /> },
-  ];
+    { name: 'JavaScript', icon: <SiJavascript className="text-yellow-500" /> },
+    { name: 'Tailwind CSS', icon: <SiTailwindcss className="text-teal-500" /> },
+    { name: 'React Native', icon: <SiReact className="text-blue-500" /> },
+  ]
 
   return (<>
     <div className="min-h-screen flex flex-col items-center justify-center bg-gray-50 p-8">
@@ -47,9 +52,6 @@ const Skill = () => {
           </div>
         ))}
       </div>
-
-
-
     </div>
   </>
   )

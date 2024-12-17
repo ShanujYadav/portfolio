@@ -9,7 +9,7 @@ const Nav = () => {
         <div className="flex justify-between items-center h-16">
           <div className="flex-shrink-0">
             <a href="/" className="text-2xl font-bold text-gray-900 font-serif">
-              Shanuj
+              Shanuj 
             </a>
           </div>
           <div className="md:hidden">
