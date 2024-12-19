@@ -5,7 +5,7 @@ const Expreince = () => {
     return (
         <div className='py-16'>
             <h2 className="text-3xl font-serif font-semibold mb-12 text-center text-gray-800 py-2 px-6">
-                Projects
+                Expreince
             </h2>
 
             <div class="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-4xl m-5 ">
@@ -19,7 +19,7 @@ const Expreince = () => {
                     </div>
                     <ul class="list-disc pl-5 text-gray-700 space-y-2 font-serif">
                         <li>Designed, developed and Deployed scalable, secure web applications using Node.js, React, Redux.js, and JavaScript, enhancing performance and user experience.</li>
-                        <li>Integrated third-party APIs such as PAN verification, CIBIL, and GST checks to streamline fintech processes and enhance operational efficiency.</li>
+                        <li>Integrated Third-party APIs such as PAN Kyc, CIBIL Report, and GST checks to streamline Fintech processes and enhance operational efficiency.</li>
                         <li>Built and integrated APIs for seamless communication between front-end and back-end, improving data flow and responsiveness.</li>
                         <li>Deployed applications on AWS using Docker and a robust CI/CD pipeline to ensure seamless integration, delivery, and scalability.</li>
                     </ul>
